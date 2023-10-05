@@ -1,0 +1,31 @@
+// inserir veiculo
+verbo : .post
+rota : "http://localhost:5000/veiculo" 
+
+//listar veiculos
+verbo : .get
+rota : "http://localhost:5000/veiculo"
+
+//listar tipo de veiculos
+verbo : .get
+rota : "http://localhost:5000/tipo/veiculo"
+
+//buscar veiculo por modelo, marca ou placa
+verbo : .get
+rota : "http://localhost:5000/veiculo/buscar?modelo="
+
+//alterar veiculo
+verbo : .put
+rota : "http://localhost:5000/veiculo/:id"
+
+//deletar veiculo
+verbo : .delete
+rota : "http://localhost:5000/veiculo/:id"
+
+
+//variavel nomes
+ "tipo": ,
+  "modelo": "",
+  "marca": "",
+  "ano": "",
+  "placa": ""

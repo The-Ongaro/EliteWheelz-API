@@ -1,0 +1,26 @@
+//inserir usuario
+verbo : .post
+rota: "http://localhost:5000/usuario"
+
+// listar usuarios
+verbo : .get
+verbo : "http://localhost:5000/usuario"
+
+// buscar por nome
+verbo : get
+rota : "http://localhost:5000/usuario/buscar?nome="
+
+// alterar usuario
+verbo : .put 
+rota : "http://localhost:5000/usuario/:id"
+
+// delete usuario
+verbo : .delete
+rota: "http://localhost:5000/usuario/:id"
+
+// variavel nomes
+"nome": "",
+"email": "",
+"telefone": "",
+"cpf": "",
+"cnh": ""
